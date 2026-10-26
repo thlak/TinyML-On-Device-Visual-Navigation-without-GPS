@@ -1,0 +1,5 @@
+model,img,weights,size_kb,threads,invoke_ms_median,invoke_ms_p95,predict_ms_median,predict_ms_p95,analyse_ms_median,analyse_ms_p95,fps,fps_full_frame_only,step_preprocess_ms,step_invoke_ms,step_postprocess_ms,step_cam_ms,temp_start_c,temp_end_c,throttled,capture_ms_median,capture_ms_p95
+model/128/landing_final.tflite,128x128,float32,1607,4,0.71,0.92,4.38,4.49,40.96,43.77,24.4,228.3,30.68,9.57,0.74,0.14,77.1,82.0,0x80008,33.32,34.32
+model/128/model_128_int8.tflite,128x128,int8,636,4,0.4,0.41,3.89,5.56,36.09,36.56,27.7,257.1,30.41,5.47,0.57,0.13,77.1,82.0,0x80000,33.32,34.32
+model/96/landing_final.tflite,96x96,float32,1606,4,0.41,0.44,3.82,4.17,36.15,36.64,27.7,261.8,29.36,6.0,0.5,0.12,77.1,82.0,0x80008,33.32,34.32
+model/96/model_96_int8.tflite,96x96,int8,635,4,0.26,0.27,3.39,3.45,32.59,34.23,30.7,295.0,28.47,3.28,0.35,0.11,77.1,81.5,0x80000,33.32,34.32

@@ -1,0 +1,11 @@
+# Python dependencies for runtime, capture, evaluation, and plotting.
+ai-edge-litert>=2.3.0
+numpy
+Pillow
+paho-mqtt>=2.1.0
+opencv-python
+matplotlib
+
+# Install picamera2 with the Raspberry Pi OS package manager, not pip.
+# If using the fallback interpreter instead of ai-edge-litert, install tflite-runtime
+# for the target Raspberry Pi OS and Python version.

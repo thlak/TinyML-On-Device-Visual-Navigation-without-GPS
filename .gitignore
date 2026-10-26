@@ -1,0 +1,17 @@
+# Python environments and cache files
+aether/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Generated evaluation outputs
+offline_scores.csv
+day_d_results.png
+
+report*
